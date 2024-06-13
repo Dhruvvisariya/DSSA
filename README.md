@@ -10,7 +10,7 @@ Features
 ### HTML Form: Collects YouTube video IDs from users.
 ### Google Sheets Integration: Uses Google Apps Script and the YouTube API to fetch and store comments.
 ### Sentiment Analysis: Analyzes the sentiments of comments and presents the results as percentages.
-
+##
 ## Technologies Used
 HTML/CSS
 Google Sheets & Google Apps Script
@@ -29,6 +29,6 @@ Run the Python script to analyze the sentiments of the comments.
 Contributing
 Contributions are welcome! Please create an issue or submit a pull request.
 
-
+##
 
 This README provides an overview of the Data Scraping and Sentiment Analysis project, including setup instructions and usage guidelines.
