@@ -3,30 +3,33 @@ This project allows users to perform sentiment analysis on YouTube video comment
 
 ## The project consists of:
 
-An HTML form to input YouTube video IDs.
-Google Sheets and Google Apps Script to fetch and store YouTube comments.
-A Python backend program to analyze comment sentiments using the TextBlob library.
-Features
-### HTML Form: Collects YouTube video IDs from users.
-### Google Sheets Integration: Uses Google Apps Script and the YouTube API to fetch and store comments.
-### Sentiment Analysis: Analyzes the sentiments of comments and presents the results as percentages.
+- An HTML form to input YouTube video IDs.
+- Google Sheets and Google Apps Script to fetch and store YouTube comments.
+- A Python backend program to analyze comment sentiments using the TextBlob library.
+
+## Features
+- HTML Form: Collects YouTube video IDs from users.
+- Google Sheets Integration: Uses Google Apps Script and the YouTube API to fetch and store comments.
+- Sentiment Analysis: Analyzes the sentiments of comments and presents the results as percentages.
 ##
 ## Technologies Used
-HTML/CSS
-Google Sheets & Google Apps Script
-YouTube API
-Python
-TextBlob
+- HTML/CSS
+- Google Sheets & Google Apps Script
+- YouTube API
+- Python
+- TextBlob
 
 ## Setup Instructions
-HTML Form: Create an HTML form to collect YouTube video IDs.
-Google Sheets: Set up a Google Sheet and link it with a Google Apps Script to fetch comments using the YouTube API.
-Python Program: Install the required Python libraries (gspread, oauth2client, pandas, textblob), and create a script to fetch comments from Google Sheets and perform sentiment analysis.
+1. HTML Form: Create an HTML form to collect YouTube video IDs.
+2. Google Sheets: Set up a Google Sheet and link it with a Google Apps Script to fetch comments using the YouTube API.
+3. Python Program: Install the required Python libraries (gspread, oauth2client, pandas, textblob), and create a script to fetch comments from Google Sheets and perform sentiment analysis.
 Usage
-Submit a YouTube video ID via the HTML form.
-Google Sheets will fetch and store the comments.
-Run the Python script to analyze the sentiments of the comments.
-Contributing
+
+- Submit a YouTube video ID via the HTML form.
+- Google Sheets will fetch and store the comments.
+- Run the Python script to analyze the sentiments of the comments.
+
+## Contributing
 Contributions are welcome! Please create an issue or submit a pull request.
 
 ##
