@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form to Google Sheets</title>
+</head>
+<body>
+  <form id="myForm">
+    <label for="data">Data:</label><br>
+    <input type="text" id="data" name="data"><br><br>
+    <input type="button" value="Submit" onclick="submitForm()">
+  </form>
+
+  <script>
+    function submitForm() {
+      var formData = new FormData(document.getElementById("myForm"));
+      fetch('https://script.google.com/macros/s/AKfycbyfw1bQSpxPlyjC94JrMXa-j_YHQS_B1kzz0BoychGCDQ1ooMb7FmBvO-jRFd7v5NpN/exec', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        console.log('Success:', response);
+        // Add any success message or redirect to another page
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    }
+  </script>
+</body>
+</html>
