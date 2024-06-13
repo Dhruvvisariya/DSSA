@@ -1,4 +1,4 @@
-### Data Scraping and Sentiment Analysis of YouTube Video Comments
+# Data Scraping and Sentiment Analysis of YouTube Video Comments
 This project allows users to perform sentiment analysis on YouTube video comments. It involves three main parts: an HTML form for input, a Google Sheets backend for data storage and comment retrieval, and a Python program for sentiment analysis.
 
 ## The project consists of:
@@ -7,9 +7,9 @@ An HTML form to input YouTube video IDs.
 Google Sheets and Google Apps Script to fetch and store YouTube comments.
 A Python backend program to analyze comment sentiments using the TextBlob library.
 Features
-# HTML Form: Collects YouTube video IDs from users.
-# Google Sheets Integration: Uses Google Apps Script and the YouTube API to fetch and store comments.
-# Sentiment Analysis: Analyzes the sentiments of comments and presents the results as percentages.
+### HTML Form: Collects YouTube video IDs from users.
+### Google Sheets Integration: Uses Google Apps Script and the YouTube API to fetch and store comments.
+### Sentiment Analysis: Analyzes the sentiments of comments and presents the results as percentages.
 
 ## Technologies Used
 HTML/CSS
