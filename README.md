@@ -13,7 +13,7 @@ This project allows users to perform sentiment analysis on YouTube video comment
 - Sentiment Analysis: Analyzes the sentiments of comments and presents the results as percentages.
 ##
 ## Technologies Used
-- HTML/CSS
+- HTML/JavaScript
 - Google Sheets & Google Apps Script
 - YouTube API
 - Python
